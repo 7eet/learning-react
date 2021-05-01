@@ -1,0 +1,35 @@
+.App {
+  background-color: #282c34;
+  color: #61dafb;
+  text-align: center;
+  height: 80vh;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+.buttons {
+  margin-top: 40%;
+}
+
+button {
+  margin-left: 20px;
+  background-color: #6ee7b7;
+  color: #282c34;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 880px) {
+  .buttons {
+    margin-top: 30%;
+  }
+}
